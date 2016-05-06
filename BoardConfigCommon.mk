@@ -104,9 +104,6 @@ TW_INCLUDE_NTFS_3G := true
 TW_TARGET_USES_QCOM_BSP := true
 TW_THEME := portrait_hdpi
 
-# USB
-TARGET_USE_CUSTOM_LUN_FILE_PATH := /sys/devices/platform/msm_hsusb/gadget/lun%d/file
-
 # Wifi
 BOARD_HAS_QCOM_WLAN := true
 BOARD_WLAN_DEVICE := qcwcn
