@@ -1,1 +1,1 @@
-allow qmuxd shell_exec:file { execute };
+allow qmuxd self:process execmem;
