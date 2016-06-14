@@ -95,6 +95,13 @@ BOARD_PROVIDES_LIBRIL := true
 
 BOARD_SEPOLICY_DIRS += device/htc/t6-common/sepolicy
 
+# TWRP
+RECOVERY_SDCARD_ON_DATA := true
+TW_INCLUDE_CRYPTO := true
+TW_INCLUDE_NTFS_3G := true
+TW_TARGET_USES_QCOM_BSP := true
+TW_THEME := portrait_hdpi
+
 # USB
 TARGET_USE_CUSTOM_LUN_FILE_PATH := /sys/devices/platform/msm_hsusb/gadget/lun%d/file
 
